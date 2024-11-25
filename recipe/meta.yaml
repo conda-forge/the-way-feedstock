@@ -1,5 +1,5 @@
 {% set name = "the-way" %}
-{% set version = "0.19.2" %}
+{% set version = "0.20.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/out-of-cheese-error/the-way/archive/v{{ version }}.tar.gz
-  sha256: dbfc7b4a97631d16fc8fb0155bd9d2ba45c22c6e696b0cc7c57d1c35d62e35de
+  sha256: 84e0610f6b74c886c6cfa92cbce5f1d4f4d12b6e504d379c11659ab9ef980e97
 
 build:
   number: 0
-  skip: True  # [win or ppc64le]
+  skip: true  # [win or ppc64le]
 
 requirements:
   build:
