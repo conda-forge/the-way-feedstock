@@ -10,7 +10,7 @@ source:
   sha256: 84e0610f6b74c886c6cfa92cbce5f1d4f4d12b6e504d379c11659ab9ef980e97
 
 build:
-  number: 0
+  number: 1
   skip: win or ppc64le
 
 requirements:
